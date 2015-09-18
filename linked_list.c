@@ -1,3 +1,9 @@
+/*
+NAME - HARSH LATHWAL
+14CSU070
+Date - 21/AUG/15
+About - implement of stack using linked list
+*/
 
 #include<stdio.h>
 
@@ -49,6 +55,23 @@ void traverse()
 				
 				}
 		}
+
+void insert_beg(){ 
+   struct node *temp; 
+   int element; 
+   temp=(struct node *)malloc(sizeof(struct node)); 
+   printf("\nEnter the element to be inserted: "); 
+   scanf("%d",&element); 
+   temp->data=element; 
+   if(head==NULL){ 
+      head=temp; 
+      temp->next=NULL; 
+   } 
+   else{ 
+      temp->next=head; 
+      head=temp; 
+   } 
+} 
 
 void insertion()
 {
