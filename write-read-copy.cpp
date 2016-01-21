@@ -50,3 +50,15 @@ int main()
  example.read();
  example.copy();
  } 
+
+//output
+/*
+student@lab138-sys22:~/harsh$ g++ write.cpp  -o write
+student@lab138-sys22:~/harsh$ ./write 
+enter data to write to file
+it is XEON ZOLT
+it is XEON ZOLTTit is XEON ZOLTTstudent@lab138-sys22:~/harsh$ 
+
+
+*/
+
